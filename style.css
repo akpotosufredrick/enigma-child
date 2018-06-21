@@ -1,0 +1,1040 @@
+/*
+ Theme Name:   Enigma Child
+ Theme URI:    http://freakp.com/enigma-child/
+ Description:  Enigma Child Theme
+ Author:       F.A.N
+ Author URI:   http://freakp.com
+ Template:     enigma
+ Version:      4.5.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         lbm, responsive-layout, accessibility-ready
+ Text Domain:  enigma-child
+*/
+*{
+  transition-delay: 0s !important;
+}
+.hidden{
+  display: none !important;
+}
+.header_section {
+    background-color: #FFF !important;
+    display: none;
+}
+.header_section > .container > .row,
+.header_section > .container > .row > .col-sm-12 {
+  float: left !important;
+  padding:0 !important;
+}
+.navbar-default button.navbar-toggle,
+.navbar-default button.navbar-toggle:hover,
+.navbar-default button.navbar-toggle:focus{
+  background-color:  #E0137A !important;
+  border: 1px  #E0137A !important;
+}
+.navbar-toggle{
+  margin-top: 0 !important;
+}
+.logo {
+  width:29% !important;
+  margin: 1em 0 0 30px !important;
+  padding-top: 0 !important;
+  float: left;
+  position: relative !important;
+  z-index: 100;
+}
+
+.header_section .logo img{
+  margin: 0 0 0 50%;
+  max-width: 150% !important;
+}
+.container.navbar-container {
+    margin: 0;
+    width: inherit;
+}
+.dropdown-menu {
+  background-color: rgba(224,19,122,0.9);
+}
+#enigma_nav_top.affix .navbar-default{
+  height: 1em !important;
+}
+#enigma_nav_top.affix .logo{
+  float:left;
+}
+
+.container a{
+  color: #E0137A ;
+}
+.container a:hover,
+.container a:focus{
+  text-decoration: underline;
+  color: #E0137A !important;
+}
+.enigma_blog_area .container,
+.enigma_project_section .container,
+.enigma_service .container,
+.enigma_footer_area .container{
+    width: 98% !important;
+}
+.enigma_footer_widget_area a{
+  color:  #fff;
+}
+
+.post-content-wrap{
+  width: 100% !important;
+}
+.enigma_fuul_blog_detail_padding > h2 + div.row {
+    display: none !important;
+}
+.enigma_blog_thumb_wrapper_showcase:hover img{
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -ms-transform: none !important;
+}
+
+.su-posts-default-loop .su-post-thumbnail img,
+.su-posts-default-loop .su-post-thumbnail{
+  width: 300px !important;
+  height: auto !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+.enigma_footer_area p{
+  visibility: visible !important;
+}
+.enigma_footer_area p a{
+  color: #ccc !important;
+}
+/* carousell */
+.carousel-caption {
+    display: block;
+    left: 77.65% !important;
+    top: 60% !important;
+    height: auto;
+    width: 20% !important;
+    text-align: left !important;
+}
+
+.enigma_slider_shadow,
+.enigma_blog_thumb_wrapper .enigma_tags,
+.carousel-control.right,
+.carousel-control.left{
+  display: none;
+}
+.carousel-text h1 {
+    font-size: 1em !important;
+    padding: 5px !important;
+}
+.carousel-inner .enigma_blog_read_btn {
+    border: 0px !important;
+    background-size: 100% 200%;
+    background-color: transparent !important;
+    color: #FFF !important;
+    background-image: none !important;
+}
+.enigma_blog_thumb_wrapper h2{
+  text-overflow: ellipsis !important;
+  height: 50px;
+  font-size: 1.8rem !important;
+}
+.enigma_blog_thumb_wrapper p{
+  text-overflow: ellipsis !important;
+  max-height: 195px !important;
+  overflow: hidden;
+}
+.animated, .appear-animation {
+    -webkit-animation-duration: 0s !important;
+    -moz-animation-duration: 0s !important;
+    -ms-animation-duration: 0s !important;
+    -o-animation-duration: 0s !important;
+    animation-duration: 0s !important;
+}
+.carousel-text h1,
+.carousel-list li {
+    background: #FFF !important;
+    color: #E0137A !important;
+    text-shadow: none !important;
+}
+.carousel-list li {
+  font-weight: normal !important;
+}
+/* carousell */
+/* portfolio */
+div[class^='albums-in-row_'] {
+    width:100% !important;
+}
+div.album_holder {
+    background: #FFF;
+    border-left: 1px solid #CCC;
+    border-bottom: 4px solid #E0137A;
+    border-right: 1px solid #CCC;
+    border-radius: 0;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    width: 100% !important;
+}
+
+div.dynamic_css,
+div.dynamic_cover_css{
+    border: none !important;
+    border-radius: 0 !important;
+}
+button.album_back_btn:hover,
+button.album_back_btn {
+    background: #E0137A !important;
+    color: #FFF !important;
+    border-radius: 0 !important;
+}
+button.album_back_btn span{
+  color: #fff !important;
+}
+
+.albums_margin .gallery-bank-hover-details {
+    display: block !important;
+}
+div.albums_margin{
+    width: 30% !important;
+    margin: 0 2%;
+}
+
+div.imgLiquid {
+    width: 100% !important;
+    min-height: 200px !important;
+    display: block !important;
+}
+
+div.albums_margin .album_holder h5 {
+    font-size: 22px !important;
+    font-weight: 600;
+    margin: 0 !important;
+    padding: 9px 3px 0px !important;
+    line-height: 35px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    color: #404040 !important;
+    height: 45px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+.album_holder > div.album_link > a {
+    font-size: 16px !important;
+    line-height: 26px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    color: #777 !important;
+}
+
+.separator-doubled {
+    display: none !important;
+}
+/* portfolio */
+
+/* heading title */
+.enigma_heading_title {
+    text-align: left !important;
+}
+/* heading title */
+.enigma_blog_wrapper .col-md-8{
+  width: 77%;
+}
+.enigma_blog_wrapper .col-md-4{
+  width: 22%;
+}
+/*** blog sidebar css **/
+.enigma-sidebar{
+  min-height: 1042px !important;
+}
+.enigma_recent_widget_post h3 a {
+	color:#E0137A !important;
+}
+.enigma_sidebar_widget {
+	border-left: 3px solid #E0137A !important;
+	border-right: 3px solid #E0137A !important;
+	border-bottom: 3px solid #E0137A !important;
+}
+.enigma_sidebar_widget_title{
+	background:#E0137A !important;
+}
+.enigma_sidebar_link p a:hover  , .enigma_sidebar_widget ul li a:hover {
+	color: #E0137A !important;
+}
+.blog-date-left {
+  display: none !important;
+}
+
+@media only screen and (max-width: 720px) {
+  .enigma_blog_wrapper .col-md-4,
+  .enigma_blog_wrapper .col-md-8{
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  div.albums_margin{
+    width: 96% !important;
+  }
+  .logo .img-responsive {
+    max-width: 250% !important;
+  }
+  .enigma_blog_wrapper .col-md-4,
+  .enigma_blog_wrapper .col-md-8{
+    width: 100% !important;
+  }
+}
+
+/* Pages */
+.col-md-12{
+  padding-left: 0 !important;
+}
+.enigma_header_breadcrum_title .container {
+    margin-left: 0 !important;
+}
+.enigma_header_breadcrum_title,
+.enigma_blog_wrapper .container{
+  margin-left: 2.5% !important;
+  width: auto !important;
+}
+.enigma_fuul_blog_detail_padding{
+  padding-left: 0 !important;
+}
+
+/* footer */
+.nav-next {
+    padding-left: 0 !important;
+    width: auto !important;
+    right: 0;
+    position: absolute;
+}
+#wblizar_nav span {
+    padding-top: 0px !important;
+}
+div.su-posts-default-loop .su-post-meta{
+  display: none;
+}
+div.su-table table{
+  width: auto !important;
+}
+.emgpad {
+    padding: 0 !important;
+    margin: 0 !important;
+    float: left;
+    width: 100% !important;
+    min-height: 100% !important;
+}
+.emgpad.emgisotope {width: 100% !important;height: 100% !important;}
+div.easyitem.view {
+    display: inline-block !important;
+    float: left !important;
+    position: relative !important;
+    clear: none !important;
+    transform: none !important;
+    margin: 0 .5em 1em 0;
+    max-width: 48% !important;
+}
+.iehand a > .emgfittext:after {
+    background: url('../../enigma/images/shadow.png') no-repeat top center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 99;
+    width: 100%;
+    background-size: 100% 100%;
+    height: 25px;
+    content: close-quote;
+    bottom: 0;
+    border-top: 4px solid #E0137A !important;
+}
+p.da-animatenh.emgfittext {
+    border-radius: 0;
+    padding: 9px 3px 30px !important;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    line-height: 35px !important;
+    color: #404040 !important;
+    background-color: #fff !important;
+}
+
+.iehand a > .emgfittext:before {
+    content: close-quote;
+}
+
+.enigma_header_breadcrum_title .col-md-12 {
+  padding-left: 0 !important;
+}
+.emg-back-album{
+  font-size: 16px !important;
+  border: 0 solid !important;
+  background: #E0137A !important;
+  border-radius: 0 !important;
+  color: #FFF !important;
+  font-family: 'Open Sans', sans-serif !important;
+  text-shadow: none !important;
+  height: auto !important;
+  font-weight: normal !important;
+  box-shadow: none !important;
+}
+.emg-back-album:hover{
+	background-color: #ffffff !important;
+	border:2px solid #E0137A !important;
+	color:#E0137A !important;
+}
+/* screen adjments */
+@media (max-width: 768px) {
+  .enigma_blog_wrapper .col-md-12,
+  .enigma_header_breadcrum_title .col-md-12 {
+    /*padding-left: 25px !important;*/
+  }
+  .navbar-collapse.in{
+    clear: both;
+  }
+  .navbar-header {
+      float: right !important;
+      margin: 1em !important;
+  }
+  nav.navbar.navbar-default {
+    width: initial !important;
+  }
+  .logo{
+    margin: 1em 0 0 2.5% !important;
+  }
+  .su-posts-default-loop .su-post-thumbnail img,
+  .su-posts-default-loop .su-post-thumbnail{
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: .5em;
+  }
+  p.da-animatenh.emgfittext{
+    font-size: 1.1em !important;
+  }
+
+
+}
+@media (max-width: 640px) {
+  p.da-animatenh.emgfittext{
+    line-height: normal !important;
+    font-size: 1em !important;
+    padding: 6px 3px 33px !important;
+  }
+  .view {
+    max-width: 100% !important;
+    clear: both;
+    /*display: inline-block;
+    position: relative !important;*/
+  }
+}
+@media (max-width: 550px) {
+  div.easyitem.view {
+      max-width: 100% !important;
+  }
+}
+
+
+/*BREAKPOINT*/
+.su-posts-default-loop .su-post-comments-link{
+  display: none !important;
+}
+
+.enigma_service_detail.media-body h3 a {
+    color: #E0137A;
+}
+.enigma_service_iocn {
+    border: 4px solid #E0137A !important;
+    background-color: trans !important;
+    background-size: 100% 200% !important;
+    background-image: linear-gradient(to bottom, #E0137A 50%, #fff 50%) !important;
+}
+.enigma_blog_read_btn {
+    border: 2px solid #E0137A !important;
+    background-size: 100% 200%;
+    background-color: #E0137A !important;
+    color: #FFF !important;
+    background-image: linear-gradient(to bottom, #E0137A 50%, #fff 50%) !important;
+}
+
+button.btn-search {
+    background: #E0137A !important;
+}
+.btn:hover, .btn:focus {
+    color: #FFF;
+}
+.enigma_header_breadcrum_title h1,
+.enigma_header_breadcrum_title .breadcrumb li a {
+    color: #E0137A !important;
+}
+.enigma_header_breadcrum_title{
+    background: transparent !important;
+    margin-bottom: 0 !important;
+}
+.enigma_header_breadcrum_title h1{
+  font-size: 2em !important;
+  border-bottom: 4px solid #E0137A !important;
+  display: inline-block;
+  margin-top: 0px;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  line-height: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #3b3b3b !important;
+}
+.enigma_fuul_blog_detail_padding h2,
+#header_shadow{
+  display: none !important;
+}
+.enigma_blog_wrapper{
+  margin-bottom: 0 !important;
+}
+
+/*  COLOR ND COLOR  */
+
+#wrapper{
+	background: #ffffff;
+}
+/*  header contact info section ***/
+
+/** navbar menus ***/
+.navigation_menu{
+	background-color: #fff;
+	border-top:2px solid #FFF !important;
+}
+.navbar-nav {
+    float: none !important;
+}
+.navbar-collapse{
+  margin-top: 1em !important;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
+.dropdown-menu .active a {
+	background-color: #E0137A !important;
+  box-shadow: none !important;
+}
+.collapse ul.nav li.current-menu-parent .dropdown-toggle, .collapse ul.nav li.current-menu-item .dropdown-toggle,
+.navbar-default .navbar-collapse ul.nav li.current-menu-parent .dropdown-toggle,.navbar-default .navbar-collapse ul.nav li.current-menu-item .dropdown-toggle
+.collapse ul.nav li.current_page_ancestor .dropdown-toggle,.collapse ul.nav li.current_page_ancestor .dropdown-toggle,
+.navbar-default .navbar-collapse ul.nav li.current_page_ancestor .dropdown-toggle,.navbar-default .navbar-collapse ul.nav li.current_page_ancestor .dropdown-toggle
+{
+	background-color: #E0137A !important;
+	box-shadow: 3px 3px 0 rgba(201, 201, 201, 1);
+	color: #fff !important;
+	border-radius:0px;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	background-color: #E0137A !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	background-color: #E0137A !important;
+  color: #FFF !important;
+  box-shadow: none !important;
+}
+.navbar-default .navbar-nav > li > a {
+	font-size: 1.1em !important;
+  padding-left: 10px !important;
+  padding-right: 20px !important;
+  box-shadow: none !important;
+}
+
+.dropdown-menu {
+	background-color: rgba(224, 19, 122, 0.9) !important;
+  color: #FFF !important;
+}
+.dropdown-menu > .active > a{
+  color: #fff !important;
+}
+/** headings titles css ***/
+.enigma_heading_title h3 {
+	border-bottom: 4px solid #E0137A !important;
+	color: #3b3b3b;
+  font-size: 2em !important;
+}
+.enigma_heading_title2 h3 {
+	border-bottom: 2px solid #E0137A !important;
+	color: #3b3b3b;
+}
+
+/** service  section css ***/
+.enigma_service_iocn{
+	border: 4px solid #E0137A !important;
+	background-color:#E0137A !important;
+	background-size: 100% 200%;
+	background-image: linear-gradient(to bottom, #E0137A 50%, #fff 50%);
+}
+.enigma_service_area:hover .enigma_service_iocn i {
+	color:#E0137A !important;
+}
+.enigma_service_area:hover .enigma_service_iocn{background-color:#ffffff;}
+.enigma_service_iocn_2 i{
+	background: #fff;
+	border: 4px solid #E0137A !important;
+}
+.enigma_service_iocn_2 i{
+	color: #E0137A !important;
+	background-size: 100% 200%;
+	background-image: linear-gradient(to bottom, #fff 50%, #E0137A 50%);
+ }
+
+
+/****************portfolio css ********************************************************
+********************************************************************************/
+
+.enigma_home_portfolio_showcase .enigma_home_portfolio_showcase_icons a {
+	background-color: #E0137A !important;
+	border:2px solid #E0137A !important;
+	color:#fff;
+}
+.enigma_home_portfolio_showcase .enigma_home_portfolio_showcase_icons a:hover{
+	background-color: #ffffff;
+	border:2px solid #E0137A !important;
+	color:#E0137A !important;
+}
+.enigma_home_portfolio_caption {
+	border-left:1px solid #ccc;
+	border-bottom:4px solid #E0137A !important;
+	border-right:1px solid #ccc;
+}
+
+.enigma_home_portfolio_caption:hover{
+    background: #E0137A !important;
+}
+.enigma_home_portfolio_caption:hover  h3 a ,.enigma_home_portfolio_caption:hover  small{
+   color: #ffffff;
+}
+.img-wrapper:hover .enigma_home_portfolio_caption{
+ background: #E0137A !important;
+ border-left:1px solid #E0137A !important;
+	border-bottom:4px solid #E0137A !important;
+	border-right:1px solid #E0137A !important;
+}
+.img-wrapper:hover .enigma_home_portfolio_caption  h3 a,.img-wrapper:hover .enigma_home_portfolio_caption  small{
+ color: #ffffff;
+}
+
+.enigma_proejct_button a {
+	background-color: #f8504b;
+	color: #FFFFFF;
+	border: 2px solid #E0137A !important;
+	transition: all 0.4s ease 0s;
+}
+.enigma_proejct_button a:hover {
+	background-color: #ffffff;
+	color: #E0137A !important;
+	border: 2px solid #E0137A !important;
+	text-decoration:none;
+
+}
+
+
+.enigma_carousel-prev, .enigma_carousel-next {
+    background-color: #fff;
+	border: 2px solid #E0137A !important;
+}
+.enigma_carousel-prev:hover, .enigma_carousel-next:hover {
+    background-color: #E0137A !important;
+	color:#fff;
+}
+.enigma_carousel-prev:hover i, .enigma_carousel-next:hover i{
+    color:#fff;
+}
+.enigma_carousel-prev i,
+.enigma_carousel-next i {
+	color: #E0137A !important;
+}
+
+/*** project detail ***/
+.enigma_portfolio_detail_pagi li a {
+	color: #404040;
+	border:2px solid #E0137A !important;
+	text-align:center;
+	background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, #E0137A 50%, #ffffff 50%);
+   -webkit-transition: 0s !important;
+    -moz-transition: 0s !important;
+    transition: 0s !important;
+
+}
+.enigma_portfolio_detail_pagi li a:hover {
+	color: #404040;
+	border:2px solid #E0137A !important;
+	background-position: 0 -100%;
+}
+
+.enigma_portfolio_detail_pagi li a span{
+	color:#fff;
+	line-height:35px;
+}
+
+.enigma-project-detail-sidebar p small {
+	color:#777777;
+
+}
+
+.enigma-project-detail-sidebar .launch-enigma-project a {
+
+	color: #ffffff;
+	border: 2px solid #E0137A !important;
+	background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, #E0137A 50%, #ffffff 50%);
+   -webkit-transition: 0s !important;
+    -moz-transition: 0s !important;
+    transition: 0s !important;
+}
+.enigma-project-detail-sidebar .launch-enigma-project a:hover {
+	background-color: #ffffff;
+	color: #E0137A !important;
+	border: 2px solid #E0137A !important;
+	background-position: 0 -100%;
+}
+
+/** gallery css **/
+
+.enigma_gallery_showcase .enigma_gallery_showcase_icons a {
+	background-color: #E0137A !important;
+	border:2px solid #E0137A !important;
+	color:#fff;
+}
+
+.enigma_gallery_showcase .enigma_gallery_showcase_icons a:hover{
+	background-color: #ffffff;
+	border:2px solid #E0137A !important;
+	color:#E0137A !important;
+}
+
+
+/**************** blog css ********************************************************
+********************************************************************************/
+
+/** blog thumbnail css **/
+.enigma_blog_thumb_wrapper{
+	background:#fff;
+	border-bottom: 5px solid #E0137A !important;
+	box-shadow: 0 0 6px rgba(0,0,0,.7);
+
+}
+.enigma_blog_thumb_wrapper h2 a{
+	color:#E0137A !important;
+	transition: 0s !important;
+}
+
+.enigma_blog_thumb_wrapper h2:hover a{
+	color:#E0137A !important;
+
+}
+.enigma_blog_thumb_date li i{
+	color: #E0137A !important;
+}
+.enigma_tags a ,.enigma_cats a{
+	background-size: 100% 200%;
+	background-color:#edf0f2;
+    background-image: linear-gradient(to bottom, #edf0f2 50%, #E0137A 50%);
+ }
+
+.enigma_tags a:hover , .enigma_cats a:hover{
+	color:#fff;
+	background-position: 0 -100%;
+	background-color:#E0137A !important;
+}
+.enigma_tags a i ,.enigma_cats a i{
+	color:#E0137A !important;
+}
+.enigma_tags a:hover i ,.enigma_cats a:hover i{
+	color:#fff;
+}
+
+.enigma_blog_thumb_wrapper span a i{
+	color: #E0137A !important;
+}
+.enigma_blog_thumb_wrapper span a {
+	color:#555;
+
+}.enigma_blog_thumb_footer{
+	display: none !important;
+}
+
+.enigma_blog_read_btn i {
+	margin-right:5px;
+}
+.enigma_blog_read_btn:hover{
+	background-position: 0 -100%;
+	background-color:#ffffff;
+	color: #E0137A !important;
+}
+.enigma_blog_read_btn a{color:#ffffff;}
+
+.enigma_blog_thumb_wrapper_showcase .enigma_blog_thumb_wrapper_showcase_icons a {
+	background-color: #E0137A !important;
+	color: #fff;
+	-webkit-transition: 0s !important;
+    -moz-transition: 0s !important;
+    -o-transition: 0s !important;
+    transition: 0s !important;
+}
+.enigma_blog_thumb_wrapper_showcase .enigma_blog_thumb_wrapper_showcase_icons a:hover{
+	background-color: #ffffff;
+	border: 2px solid #E0137A !important;
+	color: #E0137A !important;
+}
+/********* Blog Full width css ********/
+.enigma_post_date {
+	background: #E0137A !important;
+	color: #ffffff;
+}
+.enigma_blog_comment:hover i, .enigma_blog_comment:hover h6{
+	color:#E0137A !important;
+}
+.enigma_fuul_blog_detail_padding h2 a ,.enigma_fuul_blog_detail_padding h2{
+	color:#E0137A !important;
+}
+.enigma_fuul_blog_detail_padding h2  a:hover{
+	color:#E0137A !important;
+}
+
+.enigma_widget_tags a , .tagcloud a {
+	background-size: 100% 200%;
+	background-color:#edf0f2;
+    background-image: linear-gradient(to bottom, #edf0f2 50%, #E0137A 50%);
+ }
+.enigma_widget_tags a:hover , .tagcloud a:hover {
+	border: 1px solid #E0137A !important;
+	background-color:#E0137A !important;
+	background-position: 0 -100%;
+
+	color: #ffffff;
+}
+
+/** blog detail **/
+.enigma_author_detail_wrapper{
+	background: #E0137A !important;
+	padding:15px;
+	margin-bottom:40px;
+
+}
+.enigma_author_detail_wrapper{
+	border-left:2px solid #E0137A !important;
+}
+/** blog  form input css **/
+.reply a {
+	color: #E0137A !important;
+}
+.enigma_con_input_control:focus, .enigma_con_textarea_control:focus,
+.enigma_contact_input_control:focus, .enigma_contact_textarea_control:focus {
+  border-color: #E0137A !important;
+  -webkit-box-shadow: inset 0 0px 0px #E0137A !important, 0 0 5px #E0137A !important;
+          box-shadow: inset 0 0px 0px #E0137A !important, 0 0 5px #E0137A !important;
+}
+.enigma_send_button , #enigma_send_button{
+	border-color: #E0137A !important;
+	color: #6a6a6a;
+	background-color:#ffffff;
+	background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, #fff 50%, #E0137A 50%);
+  -webkit-transition: 0s !important;
+  -moz-transition: 0s !important;
+  transition: 0s !important;
+}
+.enigma_send_button:hover ,#enigma_send_button:hover{
+	background-position: 0 -100%;
+  border: 2px solid #E0137A !important;
+	color: #ffffff;
+	background-color:#E0137A !important;
+  background-image: linear-gradient(to bottom, #fff 50%, #E0137A 50%) !important;
+  -webkit-transition: 0s !important;
+  -moz-transition: 0s !important;
+  transition: 0s !important;
+}
+
+
+
+.enigma_blog_pagination {
+	background-color: #FFFFFF;
+}
+.enigma_blog_pagi a {
+	border: 1px solid #dbdbdb !important;
+	background-color: #ffffff;
+	background-size: 100% 200%;
+	background-image: linear-gradient(to bottom, #fff 50%, #E0137A 50%);
+   -webkit-transition: 0s !important;
+    -moz-transition: 0s !important;
+    transition: 0s !important;
+	color: #777777;
+}
+.enigma_blog_pagi a:hover, .enigma_blog_pagi a.active {
+	background-position: 0 -100%;
+	color: #ffffff;
+}
+
+/****** Testimonial css *******************************************
+****************************************************************/
+.enigma_testimonial_area i{
+	color:#E0137A !important;
+}
+.enigma_testimonial_area img{
+	border: 10px solid #E0137A !important;
+}
+.pager a{
+	background: #fff;
+	border: 2px solid #E0137A !important;
+}
+.pager a.selected{
+	background: #E0137A !important;
+	border: 2px solid #E0137A !important;
+}
+/**** Client Css *************************************************
+****************************************************************/
+.enigma_client_wrapper:hover {
+	border: 4px solid #E0137A !important;
+
+}
+.enigma_client_prev, .enigma_client_next {
+    background-color: #fff;
+	border: 2px solid #E0137A !important;
+}
+.enigma_client_prev:hover, .enigma_client_next:hover {
+    background-color: #E0137A !important;
+	color:#fff;
+}
+.enigma_client_prev:hover i, .enigma_client_next:hover i{
+    color:#fff;
+}
+
+.enigma_carousel-prev i,
+.enigma_carousel-next i {
+	color: #E0137A !important;
+}
+/**** About us page Css *************************************************
+****************************************************************/
+.enigma_team_showcase .enigma_team_showcase_icons a {
+	background-color: #E0137A !important;
+	border:2px solid #E0137A !important;
+	color:#fff;
+}
+
+.enigma_team_showcase .enigma_team_showcase_icons a:hover{
+	background-color: #ffffff;
+	border:2px solid #E0137A !important;
+	color:#E0137A !important;
+}
+
+.enigma_team_caption:hover{
+    background: #E0137A !important;
+}
+.enigma_team_caption:hover  h3 a ,.enigma_team_caption:hover  small{
+   color: #ffffff;
+}
+
+.enigma_team_wrapper:hover .enigma_team_caption{
+ background: #E0137A !important;
+}
+.enigma_team_wrapper:hover .enigma_team_caption  h3 ,.enigma_team_wrapper:hover .enigma_team_caption  small{
+ color: #ffffff;
+}
+/***** Call Out Section *****************************************************************
+***************************************************************************************/
+.enigma_callout_area {
+	background-color: #E0137A !important;
+
+}
+/***** Footer Area Css *****************************************************************
+***************************************************************************************/
+.enigma_footer_area{
+	background: #E0137A !important;
+	border-top: 0px solid #6B6B6B;
+}
+/***** Contact Info Css *****************************************************************
+***************************************************************************************/
+.enigma_contact_info li .desc {
+	color: #E0137A !important;
+}
+/***** Shortcode  Css *****************************************************************
+***************************************************************************************/
+/*Dropcaps Styles*/
+.enigma_dropcape_square span {
+	background-color: #E0137A !important;
+    color: #FFFFFF;
+}
+.enigma_dropcape_simple span {
+    color: #E0137A !important;
+}
+.enigma_dropcape_circle span {
+	background-color: #E0137A !important;
+    color: #FFFFFF;
+}
+
+/** progress bar or nav button css */
+.progress-bar {
+	background-color: #E0137A !important;
+}
+
+.nav-pills > li  > a{
+	border: 3px solid #E0137A !important;
+	background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, #fff 50%, #E0137A 50%) !important;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+	background-image: linear-gradient(to bottom, #E0137A 50%, #E0137A 50%) !important;
+	background-color:#E0137A !important;
+}
+.nav-stacked > li  > a
+{
+	border: 3px solid #E0137A !important;
+	background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, #fff 50%, #E0137A 50%) !important;
+ }
+ .nav-stacked > li.active > a, .nav-stacked > li.active > a:hover, .nav-stacked > li.active > a:focus {
+	background-image: linear-gradient(to bottom, #E0137A 50%, #E0137A 50%) !important;
+	background-color:#E0137A !important;
+}
+
+.enigma_blockquote_section blockquote {
+border-left: 5px solid #E0137A !important ;
+}
+#wp-calendar caption {
+background-color: #E0137A !important;
+color: #ffffff;
+padding: 10px;
+}
+#wp-calendar thead tr th {
+text-align: center;
+}
+table th {
+border: 1px solid #dddddd;
+padding: 8px;
+line-height: 20px;
+text-align: center;
+vertical-align: top;
+}
+table td {
+border: 1px solid #dddddd;
+padding: 8px;
+line-height: 20px;
+text-align: center;
+vertical-align: top;
+}
+table td {
+border: 1px solid #dddddd;
+padding: 8px;
+line-height: 20px;
+text-align: center;
+vertical-align: top;
+}
+#wp-calendar tbody tr td {
+text-align: center;
+}
+.enigma_footer_widget_column ul li a ,.enigma_footer_widget_column ul#recentcomments li {color: #f2f2f2;}
+.enigma_footer_widget_column ul li a:hover{color: #E0137A !important;}
+.enigma_callout_area a:hover{background-color:#393c40;}
+ul .social li .facebook a:hover ,ul .social li .twitter a:hover,ul .social li .linkedin a:hover ,ul .social li .youtube a:hover {background-color:#393c40;}
+.enigma_blog_pagi a:hover, .enigma_blog_pagi a.active {
+background-color: #E0137A !important;
+color: white;
+}
+.enigma_footer_widget_area{
+  background: #393c40 !important;
+}
